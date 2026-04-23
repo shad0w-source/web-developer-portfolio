@@ -26,6 +26,9 @@
 .dark-3{
     color: #757575;
 }
+.text-center{
+    text-align: center;
+}
 
 .nav-title{
     font-weight: 800;
@@ -45,7 +48,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 230px;
+    margin: 0px 230px;
 }
 /* btn */
 .btn-primary{
@@ -78,6 +81,11 @@ nav ul a{
 main{
     max-width: 1140px;
     margin: 0 auto;
+}
+
+main section{
+      margin-top: 130px;
+      margin-bottom: 130px;
 }
 
 
@@ -120,7 +128,6 @@ main{
     border-radius: 10px;
     padding: 131px 155px;
     text-align: center;
-    margin-top: 130px;
 }
 .about-items{
     display: flex;
@@ -134,4 +141,55 @@ margin-bottom: 0px;
     font-weight: bold;
     margin-top: 5px;
 
+}
+
+/* skills section */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* resume section */
+
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+
+
+.experience-title{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.experience-sub-title{
+    margin-top: 5px;
+}
+
+/* 5-8 */
+/* footer */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px ;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    border: none;
+    font-size: 16px;   
 }
